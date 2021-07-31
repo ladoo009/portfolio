@@ -128,9 +128,9 @@ STATIC_ROOT=os.path.join(BASE_DIR, 'staticfiles')         #  add kiya
 STATIC_URL = '/staticfiles/'
 MEDIA_URL = '/images/' # hta diya
 
-"""STATICFILES_DIRS = [
+STATICFILES_DIRS = [
     os.path.join(BASE_DIR, 'staticfiles')
-]"""
+]
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 MEDIA_URL = '/media/'
 
